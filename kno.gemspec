@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.email       = 'team@trykno.com'
   s.files       = Dir["lib/**/*", "LICENSE", "README.md"]
   s.homepage    = 'https://trykno.com'
-  s.license       = 'Apache-2.0'
+  s.license     = 'Apache-2.0'
 
   s.add_dependency "faraday", "~> 1.0"
 end

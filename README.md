@@ -15,7 +15,7 @@ Add `kno` as a dependency in your `Gemfile`:
 gem 'kno'
 ```
 
-Or, install it using bundler:
+Then, install it using bundler:
 
 ```
 $ bundle install

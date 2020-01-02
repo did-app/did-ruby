@@ -25,8 +25,8 @@ $ bundle install
 
 This library integrates Kno into any Rack based application, including Rails, Hanami and Sinatra.
 
-- [Rails](#rails-integration)
-- [Sinatra](#sinatra-integration)
+<!-- - [Rails](#rails-integration)
+- [Sinatra](#sinatra-integration) -->
 
 ### Rails integration
 

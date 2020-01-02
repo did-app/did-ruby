@@ -11,7 +11,7 @@ It also allows users to set up device based authentication so they don't have to
 
 Add `kno` as a dependency in your `Gemfile`:
 
-```
+```ruby
 gem `kno`
 ```
 
@@ -61,7 +61,7 @@ Use the helpers that Kno added to the request to show the correct sign in, or si
 
 Controllers can check if a users is authenticated by looking up there `persona_id`.
 
-```rb
+```ruby
 persona_id = request.env['kno'].persona_id
 ```
 

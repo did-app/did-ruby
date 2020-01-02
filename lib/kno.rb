@@ -1,4 +1,5 @@
 require 'erb'
+require 'faraday'
 
 module Kno
   class Helpers

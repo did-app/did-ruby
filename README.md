@@ -12,7 +12,7 @@ It also allows users to set up device based authentication so they don't have to
 Add `kno` as a dependency in your `Gemfile`:
 
 ```ruby
-gem `kno`
+gem 'kno'
 ```
 
 Install it using bundler, run:

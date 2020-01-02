@@ -4,8 +4,8 @@
 
 ### Go Passwordless with [trykno.com](https://trykno.com)
 
-Use the Kno service for passwordless authentication, it handles sending emails so you don't have too.
-It also allows users to set up device based authentication so they don't have to wait for any email, after the first.
+Use the Kno service for passwordless authentication, it handles sending emails so you don't have to.
+It also allows users to set up device-based authentication so they don't have to wait for any email (after the first).
 
 ## Installation
 
@@ -15,7 +15,7 @@ Add `kno` as a dependency in your `Gemfile`:
 gem 'kno'
 ```
 
-Install it using bundler, run:
+Or, install it using bundler:
 
 ```
 $ bundle install
@@ -23,7 +23,7 @@ $ bundle install
 
 ## Usage
 
-This library integrates Kno into any Rack based application, including Rails, Hanami and Sinatra.
+This library integrates Kno into any Rack-based application, including Rails, Hanami and Sinatra.
 
 <!-- - [Rails](#rails-integration)
 - [Sinatra](#sinatra-integration) -->
@@ -59,14 +59,14 @@ Use the helpers that Kno added to the request to show the correct sign in, or si
 
 #### Check the user is authenticated
 
-Controllers can check if a users is authenticated by looking up there `persona_id`.
+Controllers can check if a user is authenticated by looking up their `persona_id`.
 
 ```ruby
 persona_id = request.env['kno'].persona_id
 ```
 
-With Kno users are uniquely identified by their `persona_id`.
-If the request is unauthenticated then the value will be nil.
+With Kno, users are uniquely identified by their `persona_id`.
+If the request is unauthenticated, then the value will be nil.
 
 #### Local development
 
@@ -101,7 +101,7 @@ Contributions are very welcome. Please do open an issue or pull request or reach
 
 #### Docker
 
-If you do not have node installed you can run locally in Docker with the following command.
+If you do not have node installed, you can run locally in Docker with the following command.
 
 ```bash
 docker run \

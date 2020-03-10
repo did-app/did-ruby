@@ -6,7 +6,7 @@ DID is an Identity Provider, that authenticates users by verifying access to eit
 
 This repo contains Ruby applications that use DID authentication.
 
-- TODO
+- [Sinatra](examples/sinatra)
 
 ## Where's the library?
 

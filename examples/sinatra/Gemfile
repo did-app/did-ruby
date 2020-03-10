@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "rake", "~> 12.0"
+gem 'openid_connect', '~> 1.1', '>= 1.1.8'
+gem 'sinatra', '~> 2.0', '>= 2.0.8.1'

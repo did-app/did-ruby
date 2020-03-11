@@ -28,7 +28,7 @@ get "/callback" do
   client.authorization_code = code
   tokens = client.access_token!
 
-  id_token = OpenIDConnect::ResponseObject::IdToken.decode tokens.id_token, config.jwks.first
+  id_token = OpenIDConnect::ResponseObject::IdToken.decode tokens.id_token, config.jwks
   id_token.verify!(issuer: config.issuer, client_id: client.identifier)
   id_token.subject
 end

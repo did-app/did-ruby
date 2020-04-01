@@ -9,6 +9,16 @@
   </head>
 
   <body>
+    <% if session[:current_user_id] %>
+      <%= link_to 'Sign out', sign_out_path %>
+    <% else %>
+      <form action="https://auth.did.app/oidc/authorize" method="get">
+        <input name="client_id" value="<%= ENV["CLIENT_ID"] %>" type="hidden" />
+        <input name="redirect_uri" value="<%= callback_url %>" type="hidden" />
+
+        <button type="submit">Sign in</button>
+      </form>
+    <% end %>
     <%= yield %>
   </body>
 </html>

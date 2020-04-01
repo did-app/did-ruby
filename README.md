@@ -6,14 +6,14 @@
 
 This repo contains Ruby applications that use [DID.app](https://did.app) authentication.
 
-- [Sinatra](examples/sinatra)
+- [Rails](examples/rails)
 
 ## Where's the library?
 
 There is no specific library, integration involves a single HTTP request and is well documented in our guides.
-This repo contains examples referenced in the guides
+This repo contains examples referenced in [our guides](https://did.app/docs).
 
-<!-- Instead follow our guide for [using did with express](https://did.app/guides/express-nodejs-openid-connect-integration). -->
+For passwordless authentication in your app follow our [Ruby on Rails integration guide](https://did.app/guides/ruby-on-rails-openid-connect-integration/)
 
 ## Contributing
 
@@ -21,7 +21,7 @@ Contributions are very welcome. Please do open an issue or pull request or reach
 
 #### Docker
 
-If you do not have node installed, you can run a ruby sandbox in Docker with the following command.
+If you do not have Ruby installed, you can run a Ruby sandbox in Docker with the following command.
 
 ```bash
 docker-compose run app bash

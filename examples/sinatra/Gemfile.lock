@@ -37,21 +37,21 @@ GEM
       validate_url
       webfinger (>= 1.0.1)
     public_suffix (4.0.3)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-oauth2 (1.14.0)
       activesupport
       attr_required
       httpclient
       json-jwt (>= 1.11.0)
       rack (>= 2.1.0)
-    rack-protection (2.0.8.1)
+    rack-protection (2.2.0)
       rack
     rake (12.3.3)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
     swd (1.2.0)
       activesupport (>= 3)
@@ -78,7 +78,7 @@ PLATFORMS
 DEPENDENCIES
   openid_connect (~> 1.1, >= 1.1.8)
   rake (~> 12.0)
-  sinatra (~> 2.0, >= 2.0.8.1)
+  sinatra (~> 2.2)
 
 BUNDLED WITH
    2.1.2

@@ -24,7 +24,7 @@ GEM
       mini_mime (>= 0.1.1)
     mini_mime (1.0.2)
     minitest (5.14.1)
-    mustermann (1.1.1)
+    mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     openid_connect (1.1.8)
       activemodel
@@ -37,28 +37,28 @@ GEM
       validate_url
       webfinger (>= 1.0.1)
     public_suffix (4.0.3)
-    rack (2.2.2)
+    rack (2.2.4)
     rack-oauth2 (1.14.0)
       activesupport
       attr_required
       httpclient
       json-jwt (>= 1.11.0)
       rack (>= 2.1.0)
-    rack-protection (2.0.8.1)
+    rack-protection (2.2.3)
       rack
     rake (12.3.3)
-    ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
     swd (1.2.0)
       activesupport (>= 3)
       attr_required (>= 0.0.5)
       httpclient (>= 2.4)
     thread_safe (0.3.6)
-    tilt (2.0.10)
+    tilt (2.0.11)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     validate_email (0.1.6)
@@ -78,7 +78,7 @@ PLATFORMS
 DEPENDENCIES
   openid_connect (~> 1.1, >= 1.1.8)
   rake (~> 12.0)
-  sinatra (~> 2.0, >= 2.0.8.1)
+  sinatra (~> 2.2)
 
 BUNDLED WITH
    2.1.2
